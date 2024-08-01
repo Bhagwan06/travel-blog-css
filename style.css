@@ -1,0 +1,274 @@
+:root{
+    --box-shadow: 0px 2px 2px 2px #bebfb8;
+}
+
+.container{
+    margin: 0px;
+}
+.header{
+    background-color: hwb(60 5% 26% / 0.811);
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    align-items: center;
+}
+
+.img{
+    height: 64px;
+    width: 64px;
+    border-radius: 50% ;
+    border: dotted;
+    
+}
+.navbar{
+    background-color: chocolate;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.navbar ul{
+    display: flex;
+justify-content: space-evenly;
+padding: 10px;
+align-items: center;
+}
+.navbar li{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.banner img{
+    height: 800px;
+    width: 100vw;
+}
+
+.container-banner{
+    background-color: rgb(14, 3, 3);
+    color: blanchedalmond;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 20px;
+   border-radius: 12px;
+}
+
+
+.banner{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    background-image: url('BGM03252.JPG');
+
+    height: 600px;
+    background-position: center
+    ;
+    background-size: cover;
+
+}
+.multi-container{
+    padding: 64px;
+    /* display: flex; */
+}
+.post{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 24px;
+}
+
+.latest-post{
+    padding: 24px;
+}
+
+.card{
+    /* box-shadow: black;/ */
+box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    /* padding: 12px; */
+    gap: 12px;
+    align-content: space-around;
+    border-radius: 12px;
+    
+}
+.card img{
+    padding-top: 24px;
+height: 150px;
+width: 250px;
+}
+.card-info{
+justify-content: space-around;
+
+
+}
+
+.button{
+    justify-content: right;display: flex;
+    padding: 12px;
+}
+
+.card-info button{
+    background-color: rgb(228, 75, 15);
+    border-radius: 4px;
+    border-color: red;
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+    width: 70%;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    gap: 24px;
+    width: 30%;
+}
+
+.country{
+    background-color: thistle;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.date{
+    background-color: steelblue;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.recommendation{
+    background-color: yellowgreen;
+    /* padding: 24px; */
+    padding: 64px;
+
+    
+}
+
+
+ .recommendation-card{
+display: flex;
+gap: 36px;
+border-radius: 4px;
+flex-direction: column;
+/* padding: 36px; */
+} 
+
+.recommendation-card-1 img{
+height: 350px;
+width: 100%;
+border-top: 12px;
+}
+
+.recommendation-card-1{
+    border-radius: 12px;
+    background-color: #bebfb8;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.recommendation-info{
+justify-content: center;
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 24px;
+}
+
+.recommendation-info button{
+    background-color: rgb(51, 192, 192);
+
+    height: 28px;
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+.recommendation-container-1{
+gap: 36px;
+display: flex;
+border-radius: 4px;
+}
+
+.recommendation-container-2{
+    display: flex;
+    gap: 36px;
+}
+
+.form{
+    padding: 24px;
+    text-align: center;
+}
+ input{
+    height: 50px;
+    width: 230px;
+    border-radius: 8px;    
+}
+
+.form Submit{
+    width: 24px;
+}
+.footer{
+    background-color: black;
+    color: #dfd2d2;
+    height:150px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 96px;
+}
+
+@media screen and (width > 992px) {
+    .footer{
+        background-color: rgb(52, 46, 52);
+    }
+    
+}
+/* tablet */
+@media screen and (width>600px) and (width< 992px) {
+    .footer{
+        background-color: purple;
+    }
+    
+}
+
+
+/* mobile */
+@media screen and ( width<600px) {
+
+    .footer{
+        background-color: red;
+    }
+
+    .post{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .recommendation-container-1{
+        flex-direction: column;
+        overflow: hidden;
+    }
+   
+    .recommendation-container-2{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .date{
+        flex-direction: column;
+        /* overflow: hidden; */
+        padding: 24px;
+        width: 100px;
+    }
+    .country{
+        padding: 24px;
+        width: 100px;
+    }
+}
