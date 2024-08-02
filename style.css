@@ -13,6 +13,14 @@
     align-items: center;
 }
 
+.icons{
+  display: flex;
+    gap: 24px;
+    padding: 24px;
+cursor: pointer;
+
+}
+
 .img{
     height: 64px;
     width: 64px;
@@ -36,6 +44,10 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     padding: 8px;
+    cursor: pointer;
+}
+.navbar li:hover{
+color: aqua;
 }
 
 .banner img{
@@ -59,7 +71,7 @@ align-items: center;
     align-items: center;
     align-content: center;
     display: flex;
-    background-image: url('BGM03252.JPG');
+    background-image: url('g.JPG');
 
     height: 600px;
     background-position: center
@@ -107,12 +119,14 @@ justify-content: space-around;
 .button{
     justify-content: right;display: flex;
     padding: 12px;
+    
 }
 
 .card-info button{
     background-color: rgb(228, 75, 15);
     border-radius: 4px;
     border-color: red;
+    cursor: pointer;
     
 }
 
@@ -133,9 +147,15 @@ justify-content: space-around;
 }
 
 .country{
-    background-color: thistle;
+    background-color: rgb(87, 209, 166);
     border-radius: 12px;
     padding: 24px;
+}
+.country li:hover{
+    color: rgb(213, 14, 51);
+    cursor: pointer;
+    text-decoration: underline;
+
 }
 
 .date{
@@ -144,6 +164,11 @@ justify-content: space-around;
     padding: 24px;
 }
 
+.date li:hover{
+    text-decoration: underline;
+    color: rgb(213, 14, 51);
+    cursor: pointer;
+}
 .recommendation{
     background-color: yellowgreen;
     /* padding: 24px; */
@@ -164,7 +189,7 @@ flex-direction: column;
 .recommendation-card-1 img{
 height: 350px;
 width: 100%;
-border-top: 12px;
+background-size: cover;
 }
 
 .recommendation-card-1{
@@ -187,6 +212,7 @@ padding-bottom: 24px;
     height: 28px;
     width: 100%;
     border-radius: 8px;
+    cursor: pointer;
     
 }
 
@@ -211,8 +237,11 @@ border-radius: 4px;
     border-radius: 8px;    
 }
 
-.form Submit{
-    width: 24px;
+.form button{
+    height: 50px;
+    width: 230px;
+    border-radius: 8px; 
+    cursor: pointer; 
 }
 .footer{
     background-color: black;
