@@ -30,7 +30,7 @@ To set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Bhagwan06/travel-blog.git
+   git clone https://github.com/Bhagwan06/travel-blog-css.git
    ```
 
 2. **Navigate to the project directory**:
@@ -50,8 +50,3 @@ To set up the project locally:
 
 
 
-For any inquiries, reach out via email at magarbhagwan66@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/bhagwan-gharti-magar-5762901a5).
-
----
-
-This README should give users all the details they need to understand, install, and contribute to the project! Let me know if you need any other specific sections added.
